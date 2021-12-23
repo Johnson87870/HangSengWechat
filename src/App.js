@@ -1,16 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { HomePage } from './pages/Home';
-import { PageTwo } from './pages/Page2';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import { IdvPage } from "./pages/idv/idv";
+import { IvcPage } from "./pages/ivc/ivc";
 
 const App = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/page2" exact component={PageTwo} />
-    </Switch>
-  </BrowserRouter>
+  <>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={IdvPage} />
+        <Route path="/ivc" exact component={IvcPage} />
+      </Switch>
+    </BrowserRouter>
+  </>
 );
 
 export default App;

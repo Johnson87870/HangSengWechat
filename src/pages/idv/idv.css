@@ -1,0 +1,51 @@
+.idv {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.input-init {
+    width: 100%;
+    font-size: 16px;
+    outline-style: none;
+    border-bottom: 1px solid #dbdbdb;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+}
+.idv .security {
+    font-size: 16px;
+}
+
+.idv .security .security-label,
+.idv .security .security-tips {
+    font-size: 14px;
+}
+
+.idv  .tel-phone {
+    display: flex;
+}
+.idv .tel-phone .area-code {
+    width: 100px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-right: 20px;
+}
+.idv .tel-phone .area-code .area-code-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.idv .tel-phone .area-code .area-code-value::after {
+    content: ">";
+    clear: both;
+    display: inline-block;
+}
+.idv .tel-phone .phone-number {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.idv .tel-phone .phone-number .phone-number-value {
+    height: 30px;
+}
+

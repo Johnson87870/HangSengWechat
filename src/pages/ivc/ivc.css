@@ -1,0 +1,48 @@
+.ivc {
+    padding: 0 20px;
+}
+.ivc-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.code-container {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.fieldWrap {
+    width: 34px;
+    height: 44px;
+    font-size: 36px;
+    color: #333;
+    line-height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    margin-right: 15px;
+    position: relative;
+}
+.highlight {
+    border-color: #222;
+}
+.focus::after {
+    content: "";
+    clear: both;
+    width: 1px;
+    height: 40px;
+    background-color: #c7152d;
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+
+.retryBtn {
+    margin-top: 6px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    padding: 8px 0;
+}
