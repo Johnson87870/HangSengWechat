@@ -29,7 +29,7 @@ export const IvcPage = () => {
   };
   const retryCode = () => {
     if (currentTimes <= 0 && !timing) {
-      setCurrentTimes(10);
+      setCurrentTimes(60);
       setTiming(true);
     }
   };
